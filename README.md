@@ -90,6 +90,7 @@ A collection of HTML head elements.
 <meta property="og:title" content="Content Title">
 <meta property="og:description" content="Description Here">
 <meta property="og:site_name" content="Site Name">
+<!-- Image paths must be absolute -->
 <meta property="og:image" content="https://example.com/image.jpg">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -110,6 +111,7 @@ A collection of HTML head elements.
 <meta name="twitter:creator" content="@author_handle">
 <meta name="twitter:title" content="Content Title">
 <meta name="twitter:description" content="Content description less than 200 characters">
+<!-- Image paths must be absolute -->
 <meta name="twitter:image" content="https://example.com/image.jpg">
 <!-- Twitter summary card with large image must be at least 280x150px -->
 <!-- More info: https://dev.twitter.com/cards/getting-started -->
@@ -124,6 +126,7 @@ A collection of HTML head elements.
 ``` html
 <meta itemprop="name" content="Content Title">
 <meta itemprop="description" content="Content description less than 200 characters">
+<!-- Image paths must be absolute -->
 <meta itemprop="image" content="https://example.com/image.jpg">
 ```
 
